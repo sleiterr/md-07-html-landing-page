@@ -59,6 +59,7 @@ section {
   /* parent size 100% width */
   margin: 0 auto;
   padding: 0 15px;
+  position: relative;
 }
 
 /*! ======== HEADER ========== */
@@ -203,7 +204,6 @@ input[type="submit"]:hover {
 
 .contact-two ul {
   margin: 20px 0 50px;
-  
 }
 
 .contact-two li {
@@ -260,7 +260,7 @@ input[type="submit"]:hover {
     padding-bottom: 20px;
   }
 
- .nav-list.show {
+  .nav-list.show {
     right: 0; /*? Displays the menu when the "show" class is added */
   }
   .nav-link {
@@ -293,6 +293,33 @@ input[type="submit"]:hover {
   .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  .home {
+    position: fixed;
+    color: #6f86ff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    right: 30px;
+    bottom: 30px;
+    text-transform: uppercase;
+  }
+
+  .fa-solid 
+  .fa-circle-chevron-up {
+    display: inline-block;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .home {
+    font-size: 2rem;
+  }
+
+  .home i {
+    font-size: 4rem;
+    margin-right: 5px;
   }
 }
 
